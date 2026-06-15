@@ -1,0 +1,14 @@
+package br.claude;
+
+public class RendaFixa implements Liquidavel {
+
+	
+	
+	public boolean podeResgatar() {
+		
+	}
+	public double calcularValorResgate() {
+		
+	}
+	
+}

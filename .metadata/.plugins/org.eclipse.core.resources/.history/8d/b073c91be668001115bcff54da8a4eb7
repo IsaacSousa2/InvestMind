@@ -1,0 +1,17 @@
+package br.claude;
+
+public class RendaFixa implements Liquidavel {
+
+	private double taxaJuros;
+	private LocalDate dataVencimento;
+	private TipoRendaFixa tipoRendaDixa;
+	
+	
+	public boolean podeResgatar() {
+		
+	}
+	public double calcularValorResgate() {
+		
+	}
+	
+}

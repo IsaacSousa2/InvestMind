@@ -1,0 +1,27 @@
+package br.claude;
+import java.util.ArrayList;
+
+public class Carteira {
+
+	private double saldoDisponivel;
+	private ArrayList<Ativo> ativos;
+	
+	public Carteira() {
+		
+	}
+	public Carteira(double saldoDisponivel) {
+		
+		this.saldoDisponivel = saldoDisponivel;
+		
+	}
+	
+	//Getters
+	public double getSaldoDisponivel() {
+		return this.saldoDisponivel;
+	}
+	
+	//Setters
+	public void setSaldoDisponivel(double saldoDisponivel) {
+		this.saldoDisponivel = saldoDisponivel;
+	}
+}

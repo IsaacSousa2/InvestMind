@@ -1,0 +1,40 @@
+package br.claude;
+
+public class Acao {
+
+	private String setor;
+	private double dividendoAnual;
+	
+	private double rentabilidadeMensal;
+	
+	public Acao() {
+		
+	}
+	public Acao(String setor, double dividendoAnual) {
+		
+		this.setor = setor;
+		this.dividendoAnual = dividendoAnual;
+		
+	}
+	
+	//Getters
+	public String getSetor() {
+		return this.setor;
+	}
+	public double getDividendoAnual() {
+		return this.dividendoAnual;
+	}
+	
+	//Setters
+	public void setSetor(String setor) {
+		this.setor = setor;
+	}
+	public void setDividendoAnual(double dividendoAnual) {
+		this.dividendoAnual = dividendoAnual;
+	}
+	
+	public void calcularRentabilidade() {
+		
+	}
+	
+}

@@ -9,6 +9,8 @@ public class Transacao {
 	private double valorUnitario;
 	private LocalDate dataTransacao;
 	
+	private double valorTotal;
+	
 	public Transacao() {
 		
 	}
@@ -55,6 +57,10 @@ public class Transacao {
 	}
 	public void setDataTransacao(LocalDate dataTransacao) {
 		this.dataTransacao = dataTransacao;
+	}
+	
+	public void getValorTotal() {
+		valorTotal = valorUnitario * quantidadeTransacao;
 	}
 	
 }

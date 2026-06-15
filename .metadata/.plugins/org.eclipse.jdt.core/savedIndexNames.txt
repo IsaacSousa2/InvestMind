@@ -1,4 +1,3 @@
 INDEX VERSION 1.134+C:\Users\cicer\OneDrive\Desktop\InvestMind\.metadata\.plugins\org.eclipse.jdt.core
 1865797976.index
 712434383.index
-1117903169.index

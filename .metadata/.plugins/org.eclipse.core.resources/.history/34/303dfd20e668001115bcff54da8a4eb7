@@ -1,0 +1,25 @@
+package br.claude;
+import java.time.LocalDate;
+
+public class RendaFixa implements Liquidavel {
+
+	private double taxaJuros;
+	private LocalDate dataVencimento;
+	private TipoRendaFixa tipoRendaFixa;
+	
+	public RendaFixa() {
+		
+	}
+	public RendaFixa(double taxaJuros, LocalDate dataVencimento, TipoRendaFixa tipoRendaFixa) {
+		
+	}
+	
+	
+	public boolean podeResgatar() {
+		
+	}
+	public double calcularValorResgate() {
+		
+	}
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;br.claude.Acao.rentabilidadeMensal&apos; in &apos;br.claude.Acao&apos;&#x0D;&#x0A;- Original project: &apos;InvestMind&apos;&#x0D;&#x0A;- Original element: &apos;br.claude.Acao.rentabilidadeMensal&apos;&#x0D;&#x0A;- Getter method name: &apos;getRentabilidadeMensal&apos;&#x0D;&#x0A;- Setter method name: &apos;setRentabilidadeMensal&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;rentabilidadeMensal, ...&apos;" flags="589830" getter="getRentabilidadeMensal" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;br.claude{Acao.java[Acao^rentabilidadeMensal" insertion="6" setter="setRentabilidadeMensal" stamp="1781546302108" version="1.0" visibility="1"/>
+</session>

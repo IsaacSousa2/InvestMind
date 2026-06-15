@@ -1,7 +1,7 @@
 package br.claude;
 import java.time.LocalDate;
 
-public class Ativo {
+public abstract class Ativo {
 
 	private String codigoAtivo;
 	private String nomeAtivo;
@@ -64,5 +64,7 @@ public class Ativo {
 	public void setRiscoAtivo(NivelDeRisco riscoAtivo) {
 		this.riscoAtivo = riscoAtivo;
 	}
+	
+	
 	
 }

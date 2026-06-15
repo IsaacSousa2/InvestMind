@@ -5,13 +5,17 @@ public class Carteira {
 
 	private double saldoDisponivel;
 	private ArrayList<Ativo> ativos;
+	private ArrayList<Transacao> historico;
 	
 	public Carteira() {
-		
+		this.ativos = new ArrayList<>();
+		this.historico = new ArrayList<>();
 	}
 	public Carteira(double saldoDisponivel) {
 		
 		this.saldoDisponivel = saldoDisponivel;
+		this.ativos = new ArrayList<>();
+		this.historico = new ArrayList<>();
 		
 	}
 	

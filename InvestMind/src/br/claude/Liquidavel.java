@@ -2,7 +2,7 @@ package br.claude;
 
 public interface Liquidavel {
 
-	void podeResgatar();
-	void calcularValorResgate();
+	boolean podeResgatar(boolean liquidezDisponivel);
+	double calcularValorResgate();
 	
 }

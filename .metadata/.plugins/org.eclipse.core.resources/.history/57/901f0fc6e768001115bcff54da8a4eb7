@@ -1,0 +1,58 @@
+package br.claude;
+import java.time.LocalDate;
+
+public class RendaFixa implements Liquidavel {
+
+	private double taxaJuros;
+	private LocalDate dataVencimento;
+	private TipoRendaFixa tipoRendaFixa;
+	
+	private boolean liquidezDisponivel;
+	
+	public RendaFixa() {
+		
+	}
+	public RendaFixa(double taxaJuros, LocalDate dataVencimento, TipoRendaFixa tipoRendaFixa, boolean liquidezDisponivel) {
+		this.taxaJuros = taxaJuros;
+		this.dataVencimento = dataVencimento;
+		this.tipoRendaFixa = tipoRendaFixa;
+		this.liquidezDisponivel = liquidezDisponivel;
+	}
+	
+	//Getters
+	public double getTaxaJuros() {
+		return this.taxaJuros;
+	}
+	public LocalDate getDataVencimento() {
+		return this.dataVencimento;
+	}
+	public TipoRendaFixa getTipoRendaFixa() {
+		return this.tipoRendaFixa;
+	}
+	public boolean getLiquidezDisponivel() {
+		return this.liquidezDisponivel;
+	}
+	
+	//Setters
+	public void setTaxaJuros(double taxaDeJuros) {
+		this.taxaJuros = taxaDeJuros;
+	}
+	public void setDataVencimento(LocalDate dataVencimento) {
+		this.dataVencimento = dataVencimento;
+	}
+	public void setTipoRendaFixa(TipoRendaFixa tipoRendaFixa) {
+		this.tipoRendaFixa = tipoRendaFixa;
+	}
+	public void setLiquidezDisponivel(TipoRendaFixa liquidezDisponivel) {
+		this.liquidezDisponivel = liquidezDisponivel;
+	}
+	
+	
+	public boolean podeResgatar(boolean liquidezDisponivel) {
+		
+	}
+	public double calcularValorResgate() {
+		
+	}
+	
+}

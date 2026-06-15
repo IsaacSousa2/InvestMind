@@ -1,0 +1,18 @@
+package br.claude;
+
+public class Acao {
+
+	private String setor;
+	private double dividendoAnual;
+	
+	public Acao() {
+		
+	}
+	public Acao(String setor, double dividendoAnual) {
+		
+		this.setor = setor;
+		this.dividendoAnual = dividendoAnual;
+		
+	}
+	
+}
