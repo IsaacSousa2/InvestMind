@@ -1,0 +1,25 @@
+package br.claude;
+
+public class Carteira {
+
+	private double saldoDisponivel;
+	
+	public Carteira() {
+		
+	}
+	public Carteira(double saldoDisponivel) {
+		
+		this.saldoDisponivel = saldoDisponivel;
+		
+	}
+	
+	//Getters
+	public double getSaldoDisponivel() {
+		return this.saldoDisponivel;
+	}
+	
+	//Setters
+	public void setSaldoDisponivel(double saldoDisponivel) {
+		this.saldoDisponivel = saldoDisponivel;
+	}
+}

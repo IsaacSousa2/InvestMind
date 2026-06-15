@@ -1,0 +1,16 @@
+package br.claude;
+
+public class Carteira {
+
+	private double saldoDisponivel;
+	
+	public Carteira() {
+		
+	}
+	public Carteira(double saldoDisponivel) {
+		
+		this.saldoDisponivel = saldoDisponivel;
+		
+	}
+	
+}

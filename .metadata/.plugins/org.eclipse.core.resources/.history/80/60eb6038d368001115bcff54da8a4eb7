@@ -1,0 +1,26 @@
+package br.claude;
+
+public class Investidor {
+
+	private String nome;
+	private String cpf;
+	
+	public Investidor() {
+		
+	}
+	
+	public Investidor(String nome, String cpf) {
+		
+		this.nome = nome;
+		this.cpf = cpf;
+		
+	}
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public void setCpf() {
+		this.cpf = cpf;
+	}
+	
+}

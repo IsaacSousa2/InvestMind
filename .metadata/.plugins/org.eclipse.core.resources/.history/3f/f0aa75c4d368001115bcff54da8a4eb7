@@ -1,0 +1,7 @@
+package br.claude;
+
+public class Carteira {
+
+	private double saldoDisponivel;
+	
+}

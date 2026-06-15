@@ -1,0 +1,13 @@
+package br.claude;
+import java.time.LocalDate;
+
+public class Ativo {
+
+	private String codigoAtivo;
+	private String nomeAtivo;
+	private double valorCompra;
+	private double valorAtual;
+	private LocalDate dataDeAquisição;
+	private NivelDeRisco riscoAtivo;
+	
+}

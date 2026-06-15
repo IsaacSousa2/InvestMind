@@ -1,0 +1,8 @@
+package br.claude;
+
+public class Ativo {
+
+	private String codigo;
+	private String nomeAtivo;
+	
+}
