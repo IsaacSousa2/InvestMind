@@ -1,0 +1,12 @@
+package br.claude;
+
+public class Transacao {
+
+	private Ativo ativoTransacao;
+	private TipoTransacao tipoTransacao;
+	private int quantidadeTransacao;
+	private double valorUnitario;
+	
+	
+	
+}

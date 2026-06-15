@@ -1,0 +1,13 @@
+package br.claude;
+import java.time.LocalDate;
+
+public class Transacao {
+
+	private Ativo ativoTransacao;
+	private TipoTransacao tipoTransacao;
+	private int quantidadeTransacao;
+	private double valorUnitario;
+	private LocalDate dataTransacao;
+	
+	
+}

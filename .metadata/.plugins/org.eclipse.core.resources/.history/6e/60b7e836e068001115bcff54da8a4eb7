@@ -1,0 +1,33 @@
+package br.claude;
+import java.time.LocalDate;
+
+public class Transacao {
+
+	private Ativo ativoTransacao;
+	private TipoTransacao tipoTransacao;
+	private int quantidadeTransacao;
+	private double valorUnitario;
+	private LocalDate dataTransacao;
+	
+	public Transacao() {
+		
+	}
+	public Transacao(Ativo ativoTransacao, TipoTransacao tipoTransacao, int quantidadeTransacao, double valorUnitario, LocalDate dataTransacao) {
+		
+		this.ativoTransacao = ativoTransacao;
+		this.tipoTransacao = tipoTransacao;
+		this.quantidadeTransacao = quantidadeTransacao;
+		this.valorUnitario = valorUnitario;
+		this.dataTransacao = dataTransacao;
+				
+	}
+	
+	//Getters 
+	public Ativo getAtivoTransacao() {
+		return this.ativoTransacao;
+	}
+	public TipoTransacao() {
+		return this.tipoTransacao;
+	}
+	
+}

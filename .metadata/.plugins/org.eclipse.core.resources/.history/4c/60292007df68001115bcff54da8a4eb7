@@ -1,10 +1,8 @@
 package br.claude;
-import java.util.ArrayList;
 
 public class Carteira {
 
 	private double saldoDisponivel;
-	private ArrayList<Ativo> ativos;
 	
 	public Carteira() {
 		
